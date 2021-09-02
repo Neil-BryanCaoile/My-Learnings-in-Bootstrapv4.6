@@ -13,3 +13,13 @@
 .text-blue{
     color: blue;
 }
+
+
+/* Container Css */
+
+.text-dg{
+    color: darkgreen;
+}
+.fit-content{
+    width: fit-content;
+}
