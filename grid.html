@@ -19,27 +19,23 @@
     <header>
         <h1 class="display-1 text-center">Grid System Bootsrap v4.6</h1>
     </header>
-    <main>
+
+    <main class="mt-5">
         <div class="container border border-secondary bg-light">
-            <div class="container ">
+            <div class="container">
                 <h1>The Grid System</h1>
                 <ul>
-                <li><p>Grid should have a <b>container</b></p></li>
-                <li><p>Need to create a row using the class <b>.row</b></p></li>
-                <li><p>Every row in Bootstrap has <b>12 units</b> of space</p></li>
-                <li><p>Use the class .col-&#60;1-12&#62;.</p></li>
-                <li><p>The number inside the colord box and rectangle repesent the how many columns to occupy.</p></li>
-            </ul>
+                    <li><p>Grid should have a <b>container</b></p></li>
+                    <li><p>Need to create a row using the class <b>.row</b></p></li>
+                    <li><p>Every row in Bootstrap has <b>12 units</b> of space</p></li>
+                    <li><p>Use the class .col-&#60;1-12&#62;.</p></li>
+                    <li><p>The number inside the colord box and rectangle repesent the how many columns to occupy.</p></li>
+                </ul>
             </div>
-            
             
         </div>
 
-        <br>
-        
-       
-        <div class="container">
-
+        <div class="container mt-4">
             <div class="row">
                 <div class="col-1 ">unit 1</div>
                 <div class="col-1 ">unit 2</h4></div>
@@ -84,14 +80,116 @@
                 <div class="col-3 bg-info"><h4>3</h4></div>
                 <div class="col-12 bg-primary"><h4>12</h4></div>
             </div>
-
             <div class="row text-center">
                 <div class="col bg-warning"><h3>auto using .col</h3></div>
                 <div class="col bg-danger"><h3>auto using .col</h3></div>
                 <div class="col bg-dark text-light"><h3>auto using .col</h3></div>
+            </div>
+            <div class="row text-center">
+                <div class="col bg-success"><h3>auto</h3></div>
+                <div class="col-8 bg-info"><h3>8</h3></div>
+                <div class="col bg-primary"><h3>auto</h3></div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col">
+                    <h1>Responsive Grid</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li>once you hit the size then it will change.</li>
+                        <li>once you hit the size then it will change.</li>
+                        <li>once you hit the size then it will change.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <img class="img-fluid" src="/image/grid-responsive-table.png" alt="grid-responsive-table.png" srcset="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="container mt-4">
+            <div class="row">
+                <div class="col-1 ">unit 1</div>
+                <div class="col-1 ">unit 2</h4></div>
+                <div class="col-1 ">unit 3</div>
+                <div class="col-1 ">unit 4</div>
+                <div class="col-1 ">unit 5</div>
+                <div class="col-1 ">unit 6</div>
+                <div class="col-1 ">unit 7</div>
+                <div class="col-1 ">unit 8</div>
+                <div class="col-1 ">unit 9</div>
+                <div class="col-1 ">unit 10</div>
+                <div class="col-1 ">unit 11</div>
+                <div class="col-1 ">unit 12</div>
+            </div>
+            <div class="row b">
+                <div class="col-1 bg-success"><h4>1</h4></div>
+                <div class="col-1 bg-danger"><h4>1</h4></div>
+                <div class="col-1 bg-warning"><h4>1</h4></div>
+                <div class="col-1 bg-info"><h4>1</h4></div>
+                <div class="col-1 bg-secondary"><h4>1</h4></div>
+                <div class="col-1 bg-light"><h4>1</h4></div>
+                <div class="col-1 bg-dark text-light"><h4>1</h4></div>
+                <div class="col-1 bg-primary"><h4>1</h4></div>
+                <div class="col-1 bg-danger"><h4>1</h4></div>
+                <div class="col-1 bg-warning"><h4>1</h4></div>
+                <div class="col-1 bg-info"><h4>1</h4></div>
+                <div class="col-1 bg-primary"><h4>1</h4></div>
+            </div>
+
+            <div class="row mt-2  border border-dark">
+                <div class="col-md-6 bg-dark text-light ">
+                    <h1>col-md-6</h1>
+                </div>
+                <div class="col-md-6 bg-success">
+                    <h1>col-md-6</h1>
+                </div>
+            </div>
+
+            <div class="row mt-2 border border-dark text-center no-gutters">
+                <div class="col-md-6 col-lg-4">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1526893381913-e311045b8064?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="pic-1" srcset="">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1518043289926-4d836511e381?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="pic-1" srcset="">
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1606495291291-7653512d4f20?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="pic-1" srcset="">
+                </div>
+            </div>
+
+            <div class="row mt-5 align-items-center">
+                <div class="col-12 text-center mb-4">
+                    <h3 class="display-1">Grid Alignment</h3>
+                </div>
+                <div class="col-3 bg-danger">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio a pariatur voluptates nisi quae itaque consequuntur eligendi minus deleniti accusantium ut voluptatum vitae aliquam et doloribus dignissimos, nam quasi ratione.</p>
+                </div>
+                <div class="col-3 bg-warning">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, odit doloremque? Eos harum ut voluptate sed pariatur numquam repellendus tenetur veniam eius aliquam? Harum modi maiores, quisquam doloribus veniam praesentium? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio a pariatur voluptates nisi quae itaque consequuntur eligendi minus deleniti accusantium ut voluptatum vitae aliquam et doloribus dignissimos, nam quasi ratione.</p>
+                </div>
+                <div class="col-3 bg-success">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum maiores, id commodi molestiae atque, amet velit recusandae eaque, vel laborum iste dolorem! Suscipit corporis rerum nemo itaque consequuntur id sunt!
+                    Quasi sit libero quibusdam quaerat vel nulla iste, possimus ab optio. Nostrum, molestias ipsum quasi tempore id consequatur laborum, odio quibusdam est fugit totam eaque culpa voluptas rerum possimus odit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio a pariatur voluptates nisi quae itaque consequuntur eligendi minus deleniti accusantium ut voluptatum vitae aliquam et doloribus dignissimos, nam quasi ratione.</p>
+                </div>
+                <div class="col-3 bg-info align-self-end">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio a pariatur voluptates nisi quae itaque consequuntur eligendi minus deleniti accusantium ut voluptatum vitae aliquam et doloribus dignissimos, nam quasi ratione.</p>
+                </div>
 
             </div>
-            
+        </div>
+            </div>
         </div>
 
 
