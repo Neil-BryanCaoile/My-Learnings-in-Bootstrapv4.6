@@ -26,3 +26,21 @@
 .pd>.row>.col{
     padding: 8px;
 }
+
+@media (max-width:960px)  {
+    .zk{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:570px)  {
+    .zk{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1208px){
+    .st{
+        font-size: 12px;
+    }
+}
