@@ -11,7 +11,86 @@
     <title>Form Bootstrap v4.6</title>
   </head>
   <body>
-    <h1>Form</h1>
+    <header>
+        <div class="container-fluid bg-primary pt-3 pb-4">
+          <h1 class="display-1 text-center text-light">Form Bootsrap v4.6</h1>
+        </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col-12">
+            <p class="lead">Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety
+              of forms.
+            </p>  
+          </div>
+        </div>
+
+        <div class="row mt-4 bg-light pb-4 pt-4 rounded">
+          <div class="col">
+            <form>
+              <!-- Input Email -->
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="text" class="form-control" id="email" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <!-- Input password -->
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password">
+              </div>
+
+              <!-- CheckBox -->
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="checkbox">
+                <label class="form-check-label" for="checkbox">Vaccinated</label>
+              </div>
+
+              <!-- Select -->
+              <div class="form-group">
+                <label for="select1">Example Select</label>
+                <select class="form-control" id="select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                </select>
+              </div>
+
+              <!-- Multiple Select  -->
+              <div class="form-group">
+                <label for="select2">Example Multiple Select</label>
+                <select multiple class="form-control" name="" id="multiple-select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                </select>
+              </div>
+
+              <!-- Text-Area -->
+              <div class="form-group">
+                <label for="text-area">This is a Textarea</label>
+                <textarea class="form-control" id="text-area"  rows="3"></textarea>
+
+              </div>
+
+              <!-- Custom CheckBox -->
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+              </div>
+
+              <!-- Submit -->
+              <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

@@ -17,10 +17,14 @@
 
 <body>
     <header>
-        <h1 class="display-1 text-center">Typography Bootsrap v4.6</h1>
+        <div class="container-fluid bg-primary pt-3 pb-4">
+            <h1 class="display-1 text-center text-light">Typography Bootsrap v4.6</h1>
+        </div>
+        
     </header>
     <main>
         <div class="container">
+            <!-- Headdiings -->
             <div class="row h1 mt-5 text-primary">Headdings</div>
             <div class="row bg-light rounded pt-3 pb-3 mt-4 align-items-center">
                 <div class="col">
@@ -43,14 +47,45 @@
                 </div>
             </div>
 
+            <!-- Display -->
             <div class="row h1 mt-5 text-primary">Display</div>
-
             <div class="row text-center bg-light mt-4 rounded">
                 <div class="col-12 display-1">.display-1</div>
                 <div class="col-12 display-2">.display-2</div>
                 <div class="col-12 display-3">.display-3</div>
                 <div class="col-12 display-4">.display-4</div>
             </div>
+            
+            <!-- Lead -->
+            <div class="row h1 mt-5 text-primary">Lead</div>
+            <div class="row bg-light mt-4 rounded">
+                <div class="col">
+                    <h4>Without .lead</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat a nam totam dolorem cum dicta non mollitia magni fugit?
+                    Sed corporis omnis, fugit sapiente a cum voluptatum incidunt. Saepe, repudiandae.</p>
+                </div>
+                <div class="col">
+                    <h4>With .lead</h4>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat a nam totam dolorem cum dicta non mollitia magni
+                        fugit?
+                        Sed corporis omnis, fugit sapiente a cum voluptatum incidunt. Saepe, repudiandae.</p>
+                </div>
+            </div>
+
+            <!-- Block Quotes -->
+            <div class="row h1 mt-5 text-primary">Blockquote</div>
+            <div class="row bg-light mt-4 rounded align-items-center py-4 pb-4">
+                <div class="col"><img class="img-fluid" src="https://static.parade.com/wp-content/uploads/2019/10/Life-Quotes-Dolly.jpg" alt=""></div>
+                <div class="col">
+                    
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"The way I see it, if you want the rainbow, you gotta put up with the rain"</p>
+                        <footer class="blockquote-footer">Dolly Parton</footer>
+
+                    </blockquote>
+                </div>
+            </div>
+
         </div>
 
     </main>
