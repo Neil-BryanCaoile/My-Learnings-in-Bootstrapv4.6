@@ -23,7 +23,200 @@
 
     </header>
     <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores praesentium tenetur repellat fugiat, iusto itaque distinctio magni facere rem possimus minus ea culpa hic in nobis consequatur ab ex!</p>
+        <div class="container">
+            <!-- Explanations -->
+            <div class="container">
+                <div class="row mt-4">
+                    <div class="col"></div>
+                    <div class="col">
+                        <div class="alert alert-danger">Things to keep in mind! <span class="badge badge-primary">Important!</span></div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col"></div>
+                    <div class="col-6 ">
+                        <p class=" ">
+                            <b>navbar</b> class should be always included to the navbar tag.<br>
+                            <b>navbar-<span class="text-primary">light</span></b>, changes the font color to <b class="text-primary">light</b>.<br>
+                            <b>bg-<span class="text-primary">light</span></b>, changes the navbar background color to <b class="text-primary">light</b>.<br>
+                            The brand should be in a <b>anchor tag</b>,  with a class of <b>navbar-brand</b>.
+                        </p>    
+                    </div>
+                    <div class="col"></div>
+                </div>
+                
+            </div>
+
+
+            <div class="container">
+                <!-- navbar-light -->
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <p>The navbar below has a <b>navbar-light</b> and <b class="text-primary">bg-primary</b>.</p>
+                    </div>
+                    
+                    <div class="col-12">
+                        <nav class="navbar navbar-light bg-light">
+                            <a href="" class="navbar-brand">Brand</a>
+                        </nav>  
+                    </div>
+                </div>
+                
+                <!-- navbar-dark -->
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <p>The navbar below has a <b>navbar-dark</b>  and <b class="text-primary">bg-primary</b>.</p>
+                    </div>
+                    <div class="col">
+                        <nav class="navbar navbar-dark bg-primary">
+                            <a href="" class="navbar-brand">Brand</a>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- navbar with img -->
+                <div class="row mb-4 ">
+                    <div class="col-12">
+                        <p>The navbar below has a <strong>image</strong> on its navbar-brand.</p>
+                    </div>
+                    <div class="col">
+                        <nav class="navbar navbar-light bg-light">
+                            <a href="" class="navbar-brand"> 
+                                <img src="image/farmer.png" alt="" width="40px" height="40px"> 
+                                Farmer
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                
+                <!-- navbar with links -->
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Navbar with links</h3>
+                        <p>
+                           3 components, <b>navbar-brand, navbar-toggler(Button), navbar-collapse</b>.<br><br>
+
+                           The navbar-toggler(button) should have 
+                           <b>
+                            <span class="text-danger">class="navbar-toggler"</span> 
+                            <span class="text-primary">type="button"</span> 
+                            <span class="text-warning">data-toggle="collapse"</span> 
+                            <span class="text-success">data-target="#idOfTheNavbarCollapse"</span>.
+                           </b> <br><br>
+
+                           Inside the <b>navbar-collapse</b>, there will be the links that is wrapped in a div that has a class of <b>navbar-nav</b>. The links should have  a class of <b>nav-link</b>.
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                            <!-- Navbar Brand -->
+                            <a href="" class="navbar-brand"> 
+                                <img src="/image/siberian-husky.png" width="40px" height="40px" alt="">
+                                Codecaoile
+                            </a>
+                            <!-- Button -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#codecaoile">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <!-- navbar-collapse -->
+                            <div class="collapse navbar-collapse" id="codecaoile">
+                                <!-- nav-bar-nav -->
+                                <div class="navbar-nav">
+                                    <a href="" class="nav-link active">Home</a>
+                                    <a href="" class="nav-link">Feature</a>
+                                    <a href="" class="nav-link">Contact</a>
+                                    <a href="" class="nav-link">Price</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- navbar with dropdown-->
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h3>Navbar with dropdown menu</h3>
+                    </div>
+
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+                            <a href="" class="navbar-brand">Neil</a>
+
+                            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#example">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="example">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active"><a href="" class="nav-link active">Home</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link ">Prices</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link">Feature</a></li>
+                                    <!-- Dropdown menu -->
+                                    <li class="nav-item dropdown">
+                                        <!-- Title of the dropdown menu. -->
+                                        <a class="nav-link dropdown-toggle" 
+                                            href="#" id="navbarDropdownMenuLink" 
+                                            role="button" data-toggle="dropdown" 
+                                            aria-haspopup="true" aria-expanded="false">
+                                            Dropdown link
+                                        </a>
+
+                                        <!-- Lists of the dropdown menu -->
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Forms -->
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h3>Forms</h3>
+                        <p>Use <b>.from-inline</b> to a form if wanting to add form into a navbar.</p>
+                    </div>
+                    <div class="col">
+                        <nav class="navbar navbar-light bg-light navbar-expand-lg">
+                            <a href="" class="navbar-brand">Brand</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example2" > 
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="example2">
+                                <div class="navbar-nav">
+                                    <a href="" class="nav-link active">Home</a>
+                                    <a href="" class="nav-link">Price</a>
+                                    <a href="" class="nav-link">Feature</a>
+                                </div>
+                                 <!-- Form -->
+                                 <form class="form-inline ml-auto">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </div>
+                          </nav>
+                    </div>
+
+
+                </div>
+                
+                
+            </div>
+            
+            
+
+        </div>
+        
+
+        
     </main>
     <footer class="bg-primary">
         <div class="container-fluid text-center mt-4 pt-4 pb-4">
